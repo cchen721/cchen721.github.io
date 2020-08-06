@@ -1,0 +1,10 @@
+html,body {
+    font-family: Helvetica;
+    color: black;
+    font-size: 25px;
+    background: white
+}
+
+h1 {
+    font-weight:200;
+}
