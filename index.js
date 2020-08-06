@@ -1,5 +1,3 @@
-HTML CSS JSResult
-EDIT ON
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -8,7 +6,7 @@ var TxtRotate = function(el, toRotate, period) {
   this.txt = '';
   this.tick();
   this.isDeleting = false;
-};
+}
 
 TxtRotate.prototype.tick = function() {
   var i = this.loopNum % this.toRotate.length;
