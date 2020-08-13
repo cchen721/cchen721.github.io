@@ -1,5 +1,5 @@
 html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 3em 2em;
   font-size: 18px;
   background: white;
@@ -8,7 +8,7 @@ html{
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 3em 2em;
   font-size: 18px;
   background: white;
@@ -19,22 +19,4 @@ h1 {
   font-weight: 200;
   margin: 0.4em 0;
   font-size: 3.5em;
-}
-
-.line-1{
-  position: relative;
-  top: auto;
-  margin:0 auto;
-  text-align: left;
-  overflow:hidden;
-}
-
-@keyframes typing {
-  from {width: 0;}
-  to {width:100%;}
-}
-
-@keyframes blink-caret {
-  from, to {border-color:transparent}
-  50% {border-color: black;}
 }
