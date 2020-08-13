@@ -1,4 +1,4 @@
-var TxtRotate = function(el, toRotate, period) {
+/* var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -21,7 +21,7 @@ TxtRotate.prototype.tick = function() {
   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
   var that = this;
-  var delta = 300 - Math.random() * 100;
+  var delta = 200 - Math.random() * 100;
 
   if (this.isDeleting) { delta /= 2; }
 
@@ -53,4 +53,4 @@ window.onload = function() {
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
-};
+};*/
